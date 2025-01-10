@@ -1,0 +1,118 @@
+*{
+  overflow: hidden;
+  text-align: center;
+}
+html,
+body {
+  /* background-color: rgb(255, 255, 255); */
+  padding: 0;
+  margin: 0;
+  background: skyblue;
+
+}
+
+
+
+.weather-container {
+text-align: center;
+ 
+
+}
+
+.weather-container h1 {
+  text-align: center;
+  color: rgba(255, 0, 0, 0.584);
+  font-weight: 900;
+}
+
+input {
+  padding: 1vw;
+  width: 30vw;
+  outline: none;
+  border: 1px solid lightgrey;
+  border-radius: 5px 0 0 5px;
+
+
+
+}
+
+button {
+  padding: .9vw;
+  background: rgb(55, 134, 238);
+  color: aliceblue;
+  border: none;
+  font-size: 1rem;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+
+
+}
+.weather-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  background: #0000003c;
+  margin-left: 24vw;
+  margin-top: 2vw;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+
+
+}
+
+
+.weather-info h2 {
+  font-size: 4vw;
+
+
+}
+
+.weather-info p {
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+/*responsive*/
+
+@media (max-width: 1324px) {
+  input {
+    border-radius: 5px;
+  }
+
+  button {
+    display: flex;
+    margin-left: 43vw;
+    margin-top: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border-radius: 5px;
+    font-size: 2vw;
+    
+  }
+
+
+}
+
+@media (max-width: 770px) {
+  button {
+    font-size: 2vw;
+    margin-left: 42vw;
+    padding: 1.5vw 2vw 1.5vw 2vw;
+
+
+  }
+
+}
+
+@media (max-width: 426px) {
+  button {
+    font-size: 2.5vw;
+    margin-left: 22vw;
+    padding: 1.5vw 2vw 1.5vw 2vw;
+
+
+  }
+
+}
