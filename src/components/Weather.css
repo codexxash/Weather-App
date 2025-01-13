@@ -106,10 +106,21 @@ button {
 
 }
 
-@media (max-width: 426px) {
+@media (max-width: 425px) {
   button {
     font-size: 2.5vw;
     margin-left: 22vw;
+    padding: 1.5vw 2vw 1.5vw 2vw;
+
+
+  }
+
+}
+
+@media (max-width: 376px) {
+  button {
+    font-size: 2.5vw;
+    margin-left: 38vw;
     padding: 1.5vw 2vw 1.5vw 2vw;
 
 
