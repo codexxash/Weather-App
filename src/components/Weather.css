@@ -74,8 +74,6 @@ button {
   font-size: 1.4rem;
 }
 
-/*responsive*/
-
 @media (max-width: 1324px) {
   input {
     border-radius: 5px;
@@ -114,16 +112,23 @@ button {
 
 
   }
+  input{
+    width: 50vw;
+  }
 
 }
 
-@media (max-width: 376px) {
+@media (max-width: 424px) {
   button {
-    font-size: 2.5vw;
-    margin-left: 38vw;
+    font-size: 2.9vw;
+    margin-left: 40vw;
     padding: 1.5vw 2vw 1.5vw 2vw;
 
 
   }
+  input{
+    width: 50vw;
+  }
 
 }
+
